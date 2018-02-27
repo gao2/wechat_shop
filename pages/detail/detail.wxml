@@ -4,14 +4,14 @@
   <view class="detail-list">
     <scroll-view scroll-y="true" style="height: 100%;">
       <view>
-        <image src="{{detailgood.pic_url}}"></image>
+        <image src="{{detail.imagepath}}"></image>
       </view>
       <view class="detail-name">
         <ul>
-          <li>{{detailgood.name}}</li>
-          <li>{{detailgood.price}}</li>
-          <li>规格 {{detailgood.type}}</li>
-          <li>信息 产地：泰国 发货地: 结单时间：20:00</li>
+          <li>{{detail.detailName}}</li>
+          <li>{{detail.price}}</li>
+          <li>规格 {{detail.specification}}</li>
+          <li>信息 产地：{{detail.city}} 发货地:北京 结单时间：20:00</li>
           <li>用户评价（31）</li>
           <li>商品图文详情（建议在WIFI下查看）</li>
         </ul>

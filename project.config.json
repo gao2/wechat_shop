@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wxd31cfce471fc5095",
-	"projectname": "shangcheng",
+	"projectname": "wechat_shop",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

@@ -13,19 +13,19 @@ Page({
       {
         "img": [
           {
-            url: "http://img.laozongyi.com/portal/201512/25/114519w3k7kpsu7zu6sq9d.jpg",
+            url: "../../images/detail_img/00001.jpg",
             id:
-            "1",
+            "00001",
           },
           {
-            url: "http://img.laozongyi.com/portal/201512/25/114519w3k7kpsu7zu6sq9d.jpg",
+            url: "../../images/detail_img/00002.jpg",
             id:
-            "2",
+            "00002",
           },
           {
-            url: "http://img.laozongyi.com/portal/201512/25/114519w3k7kpsu7zu6sq9d.jpg",
+            url: "../../images/detail_img/00003.jpg",
             id:
-            "3",
+            "00003",
           }
         ]
       }
