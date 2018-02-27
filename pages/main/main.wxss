@@ -1,0 +1,10 @@
+/* pages/main/main.wxss */
+/*导航*/
+.swiper-box {
+    height:375rpx;
+}
+.slide-image{
+    display: block;
+    height: 375rpx;
+    width:100%
+}

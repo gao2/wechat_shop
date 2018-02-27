@@ -1,0 +1,23 @@
+<!--pages/main/main.wxml-->
+<!-- <scroll-view class="container" scroll-y="true" scroll-into-view="{{toView}}"  scroll-top="{{scrollTop}}" bindscroll="scroll">
+</scroll-view> -->
+
+<!-- swiper:水平滚动控件
+  indicator-dots:是否显示面板指示点:true of false
+  aotuplay:自动滚动 true of false
+  interval:切换间隔 毫秒
+  duration:动画时常 毫秒 -->
+<!-- block:包装元素，用来操作if，for等操作（估计），wx:for:小程序中for的写法 -->
+<!-- {{indicatorDots}}:变量，须在js文件中定义 -->
+<!-- catchtap:点击事件,会绑定到下面的img子节点中 -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" catchtap='onSwiperTap_JumpDetail'>
+  <!-- for-item这种形式用变量必须通过下标使用，即使只有一组数据，也要加上下标0 -->
+  <!-- wx:key:暂时没理解 -->
+  <!-- data-post-id:自己加的参数，用来区分不同商品实现跳转，也是从swiper_imagesUrl带过来的参数 -->
+  <block wx:for-items="{{swiper_imagesUrl[0].img}}">
+    <swiper-item class="swiper-box">
+      <image src="{{item.url}}" class="slide-image" wx:key="index" data-post-id="{{item.id}}"/>
+    </swiper-item>
+  </block>
+</swiper>
